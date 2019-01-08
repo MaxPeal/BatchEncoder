@@ -17,7 +17,7 @@ artifacts:
 - path: artifacts\CLI\Release\x64\*.exe
 notifications:
 - provider: Webhook
-  url: https://webhooks.gitter.im/e/f2ddd523fe04ad255028
+  url: https://webhooks.gitter.im/e/b2ef66b4751356ad6489
   method: POST
   on_build_success: true
   on_build_failure: true
