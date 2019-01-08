@@ -3,6 +3,7 @@ image: Visual Studio 2017
 install:
 - cmd: >-
     choco install -y InnoSetup
+    
     set PATH="C:\Program Files\7-Zip";"C:\Program Files (x86)\Inno Setup 5";%PATH%
 before_build:
 - cmd: git submodule update --init
