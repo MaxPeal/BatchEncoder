@@ -9,8 +9,6 @@ before_build:
 - cmd: git submodule update --init
 build_script:
 - ps: .\build.ps1 -Target "Package"
-build:
-  verbosity: minimal
 artifacts:
 - path: artifacts\*.zip
 - path: artifacts\*.exe
